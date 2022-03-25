@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  jupyter:
+    build: 
+      context: .
+      dockerfile: Dockerfile.sparkgcs
+    environment:
+      - JUPYTER_TOKEN=codeop
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./nbs/:/home/jovyan/work
