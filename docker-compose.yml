@@ -10,3 +10,4 @@ services:
       - "8888:8888"
     volumes:
       - ./nbs/:/home/jovyan/work
+      - ./secrets/:/secrets/
