@@ -35,3 +35,8 @@ nbs/data/
 # vim stuff
 *.swp
 
+# spark jars
+*.jar
+
+# secrets
+secrets/*.json
